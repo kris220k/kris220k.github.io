@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+}
+.blackbg{
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+.whitebg{
+    background: white;
+    height: 350px;
+}
+.greybg{
+    background: rgb(236, 236, 236);
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.header{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.uheader{
+    margin-top: -250px;
+    margin-bottom: 250px;
+    font-family: 'Montserrat', sans-serif;
+}
+.column {
+    float: left;
+    width: 33.333%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#gradient{
+    height: 100px;
+    background-image: linear-gradient(rgb(209, 208, 208), rgb(236, 236, 236));
+}
+.bigh1{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#boat{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 80px 20px 20px 20px;
+    background-color: rgb(211, 211, 211);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 40px 40px 20px rgb(219, 219, 219);
+}
+.div1{
+    width: 400px;
+    height: 200px;
+    float: right;
+    position: relative;
+    right: 50px;
+    bottom: 260px;
+
+}
+.div2{
+    width: 400px;
+    height: 200px;
+    float: left;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+
+}
+#link1{
+    background-color:blue;
+    display: block;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    padding:20px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 40px;
+    line-height: 200px;
+    font-family: 'Open Sans', sans-serif;
+    transition: width 2s, height 4s;
+}
+#link2{
+    background-color:blue;
+    display: block;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    padding:20px;
+    color: white;
+    text-decoration: none;
+    float: right;
+    position: relative;
+    right: 40px;
+    line-height: 200px;
+    font-family: 'Open Sans', sans-serif;
+    transition: width 2s, height 4s;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    height: 200px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+#footerlink{
+    display: block;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    line-height: 200px;
+}
