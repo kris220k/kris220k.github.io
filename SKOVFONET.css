@@ -1,0 +1,152 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+header{
+    float:top;
+    height: 700px
+}
+main{
+    background-color: white;
+    height:1600px;
+}
+.blackbackground{
+    background-color: black;
+}
+.bigpadding{
+    padding:180px 0 0 0;
+    text-align: center;
+}
+.whitetext{
+    color: white
+}
+
+.cardL{
+    height:480px;
+    width:1200px;
+    background-color: blue;
+    margin: 0 0 50px 0;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    padding:100px 0 100px 0;
+}
+#cardinnerL{
+    height: 360px;
+    width:1000px;
+    padding-top: 100px;
+    float: left;
+    background-color: rgb(52, 52, 255);
+    margin: 10px 0 10px 0;
+    font-size: 100px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.cardR{
+    height:480px;
+    width:1200px;
+    float: right;
+    background-color: blue;
+    margin: 0 0 50px 0;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    padding:100px 0 100px 0;
+}
+#cardinnerR{
+    height: 360px;
+    width:1000px;
+    padding-top:100px;
+    float: right;
+    background-color: rgb(52, 52, 255);
+    margin: 10px 0 10px 0;
+    font-size: 100px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+small{
+    font-size: 55px;
+}
+
+#welcome{
+    font-family: 'Open Sans', sans-serif;
+    font-size:150px;
+    animation-name: welcome;
+    animation-duration: 10s
+}
+#SKOVFONET{
+    color:white;
+    margin:-305px 0 0 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size:150px;
+    animation-name: SKOVFONET;
+    animation-duration: 17s
+}
+#scroll{
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    color:white;
+    animation-name: scroll;
+    animation-duration: 11s
+}
+#intro{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    line-height: 2;
+
+}
+#triangle{
+    margin:-700px 0 0 0;
+    width: 0;
+    height: 0;
+    border-bottom: 712px solid white;
+    border-right: 712px solid white;
+    border-top: 712px solid transparent;
+    border-left: 712px solid transparent;
+    
+}
+#triangletext1{
+    font-size: 30px;
+    margin: 0 0 0 100px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    text-align:left;
+    line-height: 2;
+    width: 500px;
+}
+#triangletext2{
+    font-size: 30px;
+    margin: 100px 0 0 100px;
+    width:500px;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    text-align:right;
+    line-height: 2;
+}
+
+.color-white{
+    background-color:white;
+
+}
+#white-room{
+    height:50px;
+}
+#main2{
+    background-color: black;
+}
+@keyframes welcome {
+    0% {color: black;}
+    25% {color: white;}
+    50% {color: black;}
+}
+@keyframes SKOVFONET {
+    0% {color: transparent}
+    25% {Color: transparent;}
+    100% {color:white;}
+}
+
