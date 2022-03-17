@@ -74,7 +74,7 @@ small{
     font-family: 'Open Sans', sans-serif;
     font-size:150px;
     animation-name: welcome;
-    animation-duration: 10s
+    animation-duration: 5s
 }
 #SKOVFONET{
     color:white;
@@ -82,7 +82,7 @@ small{
     font-family: 'Open Sans', sans-serif;
     font-size:150px;
     animation-name: SKOVFONET;
-    animation-duration: 17s
+    animation-duration: 9.5s
 }
 #scroll{
     font-family: 'Open Sans', sans-serif;
